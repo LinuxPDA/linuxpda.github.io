@@ -1,0 +1,33 @@
+th {
+	border: 1px gray solid;
+	padding: 1ex;
+	margin: 0;
+	text-align: inherit;
+}
+td {
+	border: 1px gray solid;
+	padding: 1ex;
+	margin: 0;
+	text-align: inherit;
+}
+table {
+	border-collapse: collapse;
+}
+.device-status-part {
+	background-color: lightgray;
+}
+.device-status-cell {
+  text-align: center;
+}
+.device-status-Y {
+  background-color: lightgreen;
+}
+.device-status-WIP {
+  background-color: yellow;
+}
+.device-status-Issues {
+  background-color: yellow;
+}
+.device-status-N {
+  background-color: pink;
+}
