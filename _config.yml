@@ -17,3 +17,26 @@ markdown: kramdown
 safe: true
 lsi: false
 highlighter: pygments
+
+# Settings for device status
+status-boot-desc: Boot process
+status-basic-desc: Basic hardware
+status-udc-desc: USB Device Controller
+status-mmc-desc: SD/MMC
+status-pcmcia-desc: PCMCIA/CF
+status-display-desc: Display
+status-buttons-desc: Buttons
+status-touchscreen-desc: Touchscreen
+status-suspend-desc: Suspend/Resume
+status-battery-desc: Battery
+status-backlight-desc: Backlight
+status-sound-desc: Sound
+status-flash-desc: Flash memory
+status-leds-desc: LEDs
+status-irda-desc: IrDA
+status-wifi-desc: WiFI
+status-bluetooth-desc: Bluetooth
+status-gsm-desc: GSM
+status-gps-desc: GPS
+status-bootloader-desc: Bootloader
+status-kexecboot-desc: Kexecboot
