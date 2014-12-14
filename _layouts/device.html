@@ -35,6 +35,7 @@ layout: default
           <tr><td>{{ site.status-sound-desc }}</td><td class="device-status-cell device-status-{{ page.status-sound }}">{{ page.status-sound }}</td><td>{{page.status-sound-comment}}</td>
           <tr><td>{{ site.status-flash-desc }}</td><td class="device-status-cell device-status-{{ page.status-flash }}">{{ page.status-flash }}</td><td>{{page.status-flash-comment}}</td>
           <tr><td>{{ site.status-leds-desc }}</td><td class="device-status-cell device-status-{{ page.status-leds }}">{{ page.status-leds }}</td><td>{{page.status-leds-comment}}</td>
+          <tr><td>{{ site.status-cpufreq-desc }}</td><td class="device-status-cell device-status-{{ page.status-cpufreq }}">{{ page.status-cpufreq }}</td><td>{{page.status-cpufreq-comment}}</td>
 
           <tr><td class="device-status-part" colspan="3">Full hardware</td></tr>
 	  {% if page.status-irda != 'NA' %}<tr><td>{{ site.status-irda-desc }}</td><td class="device-status-cell device-status-{{ page.status-irda }}">{{ page.status-irda }}</td><td>{{page.status-irda-comment}}</td>{% endif %}

@@ -33,6 +33,7 @@ status-backlight-desc: Backlight
 status-sound-desc: Sound
 status-flash-desc: Flash memory
 status-leds-desc: LEDs
+status-cpufreq-desc: CPU Freq
 status-irda-desc: IrDA
 status-wifi-desc: WiFI
 status-bluetooth-desc: Bluetooth
