@@ -21,7 +21,7 @@ highlighter: pygments
 # Settings for device status
 status-boot-desc: Boot process
 status-basic-desc: Basic hardware
-status-udc-desc: USB Device Controller
+status-udc-desc: USB Device
 status-mmc-desc: SD/MMC
 status-pcmcia-desc: PCMCIA/CF
 status-display-desc: Display
