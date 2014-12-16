@@ -20,8 +20,8 @@ layout: default
           <tr><td class="device-status-part" colspan="3">Critical hardware</td></tr>
           <tr><td>{{ site.status-basic-desc }}</td><td class="device-status-cell device-status-{{ page.status-basic }}">{{ page.status-basic}}</td><td>{{page.status-basic-comment}}</td>
           <tr><td>{{ site.status-udc-desc }}</td><td class="device-status-cell device-status-{{ page.status-udc }}">{{ page.status-udc}}</td><td>{{page.status-udc-comment}}</td>
-          {% if page.status-mmc != 'NA' %}<tr><td>{{ site.status-mmc-desc }}</td><td class="device-status-cell device-status-{{ page.status-mmc }}">{{ page.status-mmc }}</td><td>{{page.status-mmc-comment}}</td>{% endif %}
-          {% if page.status-pcmcia != 'NA' %}<tr><td>{{ site.status-pcmcia-desc }}</td><td class="device-status-cell device-status-{{ page.status-pcmcia }}">{{ page.status-pcmcia }}</td><td>{{page.status-pcmcia-comment}}</td>{% endif %}
+          {% if page.status-mmc != 'N/A' %}<tr><td>{{ site.status-mmc-desc }}</td><td class="device-status-cell device-status-{{ page.status-mmc }}">{{ page.status-mmc }}</td><td>{{page.status-mmc-comment}}</td>{% endif %}
+          {% if page.status-pcmcia != 'N/A' %}<tr><td>{{ site.status-pcmcia-desc }}</td><td class="device-status-cell device-status-{{ page.status-pcmcia }}">{{ page.status-pcmcia }}</td><td>{{page.status-pcmcia-comment}}</td>{% endif %}
           <tr><td>{{ site.status-display-desc }}</td><td class="device-status-cell device-status-{{ page.status-display }}">{{ page.status-display}}</td><td>{{page.status-display-comment}}</td>
 
           <tr><td class="device-status-part" colspan="3">Basic PDA hardware</td></tr>
@@ -38,11 +38,11 @@ layout: default
           <tr><td>{{ site.status-cpufreq-desc }}</td><td class="device-status-cell device-status-{{ page.status-cpufreq }}">{{ page.status-cpufreq }}</td><td>{{page.status-cpufreq-comment}}</td>
 
           <tr><td class="device-status-part" colspan="3">Full hardware</td></tr>
-          {% if page.status-irda != 'NA' %}<tr><td>{{ site.status-irda-desc }}</td><td class="device-status-cell device-status-{{ page.status-irda }}">{{ page.status-irda }}</td><td>{{page.status-irda-comment}}</td>{% endif %}
-          {% if page.status-wifi != 'NA' %}<tr><td>{{ site.status-wifi-desc }}</td><td class="device-status-cell device-status-{{ page.status-wifi }}">{{ page.status-wifi }}</td><td>{{page.status-wifi-comment}}</td>{% endif %}
-          {% if page.status-bluetooth != 'NA' %}<tr><td>{{ site.status-bluetooth-desc }}</td><td class="device-status-cell device-status-{{ page.status-bluetooth }}">{{ page.status-bluetooth }}</td><td>{{page.status-bluetooth-comment}}</td>{% endif %}
-          {% if page.status-gsm != 'NA' %}<tr><td>{{ site.status-gsm-desc }}</td><td class="device-status-cell device-status-{{ page.status-gsm }}">{{ page.status-gsm }}</td><td>{{page.status-gsm-comment}}</td>{% endif %}
-          {% if page.status-gps != 'NA' %}<tr><td>{{ site.status-gps-desc }}</td><td class="device-status-cell device-status-{{ page.status-gps }}">{{ page.status-gps }}</td><td>{{page.status-gps-comment}}</td>{% endif %}
+          {% if page.status-irda != 'N/A' %}<tr><td>{{ site.status-irda-desc }}</td><td class="device-status-cell device-status-{{ page.status-irda }}">{{ page.status-irda }}</td><td>{{page.status-irda-comment}}</td>{% endif %}
+          {% if page.status-wifi != 'N/A' %}<tr><td>{{ site.status-wifi-desc }}</td><td class="device-status-cell device-status-{{ page.status-wifi }}">{{ page.status-wifi }}</td><td>{{page.status-wifi-comment}}</td>{% endif %}
+          {% if page.status-bluetooth != 'N/A' %}<tr><td>{{ site.status-bluetooth-desc }}</td><td class="device-status-cell device-status-{{ page.status-bluetooth }}">{{ page.status-bluetooth }}</td><td>{{page.status-bluetooth-comment}}</td>{% endif %}
+          {% if page.status-gsm != 'N/A' %}<tr><td>{{ site.status-gsm-desc }}</td><td class="device-status-cell device-status-{{ page.status-gsm }}">{{ page.status-gsm }}</td><td>{{page.status-gsm-comment}}</td>{% endif %}
+          {% if page.status-gps != 'N/A' %}<tr><td>{{ site.status-gps-desc }}</td><td class="device-status-cell device-status-{{ page.status-gps }}">{{ page.status-gps }}</td><td>{{page.status-gps-comment}}</td>{% endif %}
           <tr><td>{{ site.status-bootloader-desc }}</td><td class="device-status-cell device-status-{{ page.status-bootloader }}">{{ page.status-bootloader }}</td><td>{{page.status-bootloader-comment}}</td>
           <tr><td>{{ site.status-kexecboot-desc }}</td><td class="device-status-cell device-status-{{ page.status-kexecboot }}">{{ page.status-kexecboot }}</td><td>{{page.status-kexecboot-comment}}</td>
         </tbody>
