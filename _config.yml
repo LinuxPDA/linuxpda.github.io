@@ -14,9 +14,13 @@ collections:
 # Build settings
 markdown: kramdown
 # defaults
-safe: true
 lsi: false
 highlighter: pygments
+
+gems:
+        - jekyll-mentions
+        - jekyll-sitemap
+        - jekyll-redirect-from
 
 # Settings for device status
 status-boot-desc: Boot process
