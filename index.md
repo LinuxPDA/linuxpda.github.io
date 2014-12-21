@@ -1,10 +1,12 @@
 ---
 layout: page
 title: Supported Devices
-permalink: /devices/
+redirect_from: /devices/
 ---
 
 This page tracks all devices, supported with Linux or planned to support in the forthcoming feature.
+
+**NOTE:** these pages are still incomplete and might be incorrect. If you would like to propose a change, don't hesitate to  submit a pull-request against the [LinuxPDA repo](http://github.com/LinuxPDA/linuxpda.github.io/). As the last resort you can drop a note to @lumag or [send an e-mail](mailto:dbaryshkov@gmail.com).
 
 {% assign v = '_' %}
 {% assign f = '' %}
