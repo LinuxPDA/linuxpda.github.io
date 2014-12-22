@@ -8,7 +8,15 @@ layout: default
   </header>
 
   <article class="post-content">
-    <div class="device-status">
+  <div id="tabs">
+    <ul>
+      <li><a href="#status">Port status</a></li>
+      <!--- <li><a href="#hardware">Hardware information</a></li> -->
+      {% if content != blank %}
+      <li><a href="#notes">Additional information</a></li>
+      {% endif %}
+    </ul>
+    <div class="device-status" id="status">
       <table>
         <thead>
           <th>Component</th><th class="device-status-cell">Status</th><th>Comments</th>
@@ -48,8 +56,12 @@ layout: default
         </tbody>
       </table>
     </div>
-
-    {{ content }}
+    {% if content != blank %}
+    <div class="device-notes" id="notes">
+      {{ content }}
+    </div>
+    {% endif %}
+  </div>
   </article>
 
 </div>
