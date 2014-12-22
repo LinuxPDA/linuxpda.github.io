@@ -10,8 +10,14 @@ td {
 	margin: 0;
 	text-align: inherit;
 }
+.grow {
+	width: 100%;
+}
 table {
 	border-collapse: collapse;
+	width: 90%;
+	margin: auto;
+	table-layout: auto;
 }
 .device-status-part {
 	background-color: lightgray;
